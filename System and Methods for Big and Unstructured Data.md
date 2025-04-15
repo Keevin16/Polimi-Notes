@@ -6,7 +6,7 @@ Introduction:
 	[[Cap 5- NoSql]]
 
 NoSQL databases:
-	[[Cap 6- Neo4J]]
-	[[Cap 7- MongoDB]]
+	[[🕳️ Cap 6- Neo4J]]
+	[[🍂 Cap 7- MongoDB]]
 
 #SMBUD

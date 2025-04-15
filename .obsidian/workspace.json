@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "48161053dd848bbe",
+    "id": "a33169f8decea04f",
     "type": "split",
     "children": [
       {
-        "id": "1d40626c66fa66ec",
+        "id": "b76b894618ad8929",
         "type": "tabs",
         "children": [
           {
-            "id": "ef4de116ef3e4de4",
+            "id": "82834c5e35e9f612",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -23,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "e210af1851c0b921",
+    "id": "25e0a1af7148e474",
     "type": "split",
     "children": [
       {
-        "id": "f518bde145e17fbd",
+        "id": "8832718d97c76191",
         "type": "tabs",
         "children": [
           {
-            "id": "b3d5a851aaca4c0b",
+            "id": "d2d95bbd0e0560a3",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,7 +44,7 @@
             }
           },
           {
-            "id": "f11510da7a945fe3",
+            "id": "000f397c8ff35095",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -61,7 +61,7 @@
             }
           },
           {
-            "id": "207afb2c821ecb52",
+            "id": "b1f4693143260600",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -77,19 +77,20 @@
     "width": 200
   },
   "right": {
-    "id": "9331ac373b637e70",
+    "id": "cb28aaab943f3ba6",
     "type": "split",
     "children": [
       {
-        "id": "1071caa6fc969afa",
+        "id": "6e4d358970586a1b",
         "type": "tabs",
         "children": [
           {
-            "id": "4968971a4d0b0203",
+            "id": "a9c3ebf549319f22",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "01-Computing Infrastuctures/IoT Devices.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,24 +100,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for IoT Devices"
             }
           },
           {
-            "id": "ff583d71e785eb71",
+            "id": "b267dea71cb26513",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "01-Computing Infrastuctures/IoT Devices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from IoT Devices"
             }
           },
           {
-            "id": "3b5d0121d9845b66",
+            "id": "09417809f1322ad6",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -131,27 +133,18 @@
             }
           },
           {
-            "id": "ddd6b044edb957ef",
+            "id": "d908679df66f1567",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "01-Computing Infrastuctures/IoT Devices.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
-            }
-          },
-          {
-            "id": "71cdd95621de5b90",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "title": "Outline of IoT Devices"
             }
           }
         ]
@@ -171,51 +164,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ef4de116ef3e4de4",
+  "active": "d2d95bbd0e0560a3",
   "lastOpenFiles": [
-    "README.md",
-    "06-Neo4J/Cap 6- Neo4J.md",
-    "AP.md",
-    "06-Neo4J/Graph database.md",
-    "00-Intro/Intro.md",
-    "Untitled.canvas",
-    "04-Data Architecture/4 V's.md",
-    "04-Data Architecture/ACID.md",
-    "04-Data Architecture/BASE.md",
-    "04-Data Architecture/Cap 4- Data architecture.md",
-    "07-MongoDB/Sharding.md",
-    "07-MongoDB/Cap 7- MongoDB.md",
-    "07-MongoDB/document-oriented database.md",
+    "08-Redis",
+    "07-MongoDB/🍂 Cap 7- MongoDB.md",
+    "Tag Sharding.md",
     "07-MongoDB/Documents.md",
+    "document.md",
+    "07-MongoDB/Sharding.md",
+    "07-MongoDB/Hash Sharding.md",
+    "07-MongoDB/Range Sharding.md",
+    "Sh]ard.md",
     "07-MongoDB/Shard key.md",
-    "07-MongoDB/Collections.md",
-    "Schemaless.md",
     "Geo-Locality.md",
+    "07-MongoDB/MongoS.md",
+    "07-MongoDB/BSON.md",
+    "07-MongoDB/chunks.md",
+    "07-MongoDB/Collections.md",
+    "07-MongoDB/document-oriented database.md",
+    "07-MongoDB/Schemaless.md",
+    "07-MongoDB/Shard.md",
+    "pics/Screenshot from 2025-04-15 18-24-11.png",
+    "04-Data Architecture/Transaction.md",
     "04-Data Architecture/Partitioning.md",
-    "04-Data Architecture/Replication.md",
-    "04-Data Architecture/Partitioning and Replication.md",
-    "04-Data Architecture/Data Wrangling.md",
-    "07-MongoDB/Document Database.md",
+    "04-Data Architecture/ACID.md",
     "06-Neo4J/Neo4J Exercises.md",
-    "System and Methods for Big and Unstructured Data.md",
-    "05-NoSql/Schema on Read.md",
-    "05-NoSql/Schema On Write.md",
-    "00-Intro",
-    "07-MongoDB",
-    "pics/Pasted image 20250414145954.png",
+    "06-Neo4J/Graph database.md",
+    "06-Neo4J/Graph.md",
+    "pics/ShardingExample-2257192689.png",
+    "06-Neo4J/🕳️ Cap 6- Neo4J.md",
+    "pics/Screenshot from 2025-04-15 17-07-02.png",
+    "05-NoSql/Transient zone.md",
     "pics/Screenshot from 2025-04-14 14-59-07.png",
-    "06-Neo4J",
-    "pics/Screenshot from 2025-04-14 12-04-07.png",
     "pics/Screenshot from 2025-04-14 11-46-40.png",
+    "pics/Screenshot from 2025-04-14 10-30-04.png",
+    "pics/Screenshot from 2025-04-14 10-02-09.png",
+    "pics/Screenshot from 2025-04-14 12-04-07.png",
     "pics/Screenshot from 2025-04-14 11-42-40.png",
     "pics/Screenshot from 2025-04-14 11-36-27.png",
+    "pics",
+    "07-MongoDB",
+    "06-Neo4J",
     "05-NoSql",
     "04-Data Architecture",
-    "pics",
-    "Untitled 1.canvas",
-    "pics/Screenshot from 2025-04-14 10-30-04.png",
-    "pics/Screenshot from 2025-04-14 10-24-42.png",
-    "pics/Screenshot from 2025-04-14 10-11-04.png",
-    "pics/Screenshot from 2025-04-14 10-06-39.png"
+    "00-Intro",
+    "Untitled.canvas",
+    "Edge",
+    "01-Computing Infrastuctures",
+    "00-Data Center & Co/Cloud Service",
+    "00-intro"
   ]
 }

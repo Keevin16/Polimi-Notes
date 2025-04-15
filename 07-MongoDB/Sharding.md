@@ -1,4 +1,6 @@
->The Sharding is the **Distributed [[Partitioning]]** across multiple machines/nodes.
+>Sharding is a strategy for **horizontal [[Partitioning]]** of data using a [[Shard key]], where each [[Shard]] stores a subset of [[chunks]], ensuring efficient storage and query performance in **distributed databases**.
+
+![[ShardingExample-2257192689.png]]
 
 ---
 In this way is possible to enable:
@@ -11,5 +13,9 @@ In this way is possible to enable:
 	feasible.
 
 ---
-Sharding involves a **[[Shard key]]** defined by a data modeler that describes the partition space of a data set.
+There're several type of [[Sharding]]
+	[[Range Sharding]]
+	[[Hash Sharding]]
+	[[Tag Sharding]]
+	[[Random]], which is not optimal because MongoS has to search in **each** **shard** of **each** **document**
 
