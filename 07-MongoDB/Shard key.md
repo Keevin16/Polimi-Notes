@@ -1,0 +1,1 @@
+>A key defined by the data modeler that partitions data into [[chunks]], which are distributed across multiple servers.

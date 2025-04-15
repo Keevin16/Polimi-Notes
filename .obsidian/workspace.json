@@ -1,0 +1,221 @@
+{
+  "main": {
+    "id": "48161053dd848bbe",
+    "type": "split",
+    "children": [
+      {
+        "id": "1d40626c66fa66ec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ef4de116ef3e4de4",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e210af1851c0b921",
+    "type": "split",
+    "children": [
+      {
+        "id": "f518bde145e17fbd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b3d5a851aaca4c0b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f11510da7a945fe3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "207afb2c821ecb52",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "9331ac373b637e70",
+    "type": "split",
+    "children": [
+      {
+        "id": "1071caa6fc969afa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4968971a4d0b0203",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "ff583d71e785eb71",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "3b5d0121d9845b66",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "ddd6b044edb957ef",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "71cdd95621de5b90",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "ef4de116ef3e4de4",
+  "lastOpenFiles": [
+    "README.md",
+    "06-Neo4J/Cap 6- Neo4J.md",
+    "AP.md",
+    "06-Neo4J/Graph database.md",
+    "00-Intro/Intro.md",
+    "Untitled.canvas",
+    "04-Data Architecture/4 V's.md",
+    "04-Data Architecture/ACID.md",
+    "04-Data Architecture/BASE.md",
+    "04-Data Architecture/Cap 4- Data architecture.md",
+    "07-MongoDB/Sharding.md",
+    "07-MongoDB/Cap 7- MongoDB.md",
+    "07-MongoDB/document-oriented database.md",
+    "07-MongoDB/Documents.md",
+    "07-MongoDB/Shard key.md",
+    "07-MongoDB/Collections.md",
+    "Schemaless.md",
+    "Geo-Locality.md",
+    "04-Data Architecture/Partitioning.md",
+    "04-Data Architecture/Replication.md",
+    "04-Data Architecture/Partitioning and Replication.md",
+    "04-Data Architecture/Data Wrangling.md",
+    "07-MongoDB/Document Database.md",
+    "06-Neo4J/Neo4J Exercises.md",
+    "System and Methods for Big and Unstructured Data.md",
+    "05-NoSql/Schema on Read.md",
+    "05-NoSql/Schema On Write.md",
+    "00-Intro",
+    "07-MongoDB",
+    "pics/Pasted image 20250414145954.png",
+    "pics/Screenshot from 2025-04-14 14-59-07.png",
+    "06-Neo4J",
+    "pics/Screenshot from 2025-04-14 12-04-07.png",
+    "pics/Screenshot from 2025-04-14 11-46-40.png",
+    "pics/Screenshot from 2025-04-14 11-42-40.png",
+    "pics/Screenshot from 2025-04-14 11-36-27.png",
+    "05-NoSql",
+    "04-Data Architecture",
+    "pics",
+    "Untitled 1.canvas",
+    "pics/Screenshot from 2025-04-14 10-30-04.png",
+    "pics/Screenshot from 2025-04-14 10-24-42.png",
+    "pics/Screenshot from 2025-04-14 10-11-04.png",
+    "pics/Screenshot from 2025-04-14 10-06-39.png"
+  ]
+}

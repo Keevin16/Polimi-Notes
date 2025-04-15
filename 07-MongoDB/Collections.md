@@ -1,0 +1,1 @@
+> It contain sets of [[documents]]. Databases are made by one or more collections.	
