@@ -1,0 +1,1 @@
+>Considered the “last mile” before the cloud, often residing in local networks or telecom infrastructure (like 5G base stations).

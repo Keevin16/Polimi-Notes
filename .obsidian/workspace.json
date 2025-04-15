@@ -1,0 +1,218 @@
+{
+  "main": {
+    "id": "a33169f8decea04f",
+    "type": "split",
+    "children": [
+      {
+        "id": "aa05db5ecf7d7ed0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "abf5dbdc26d07b25",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "819ab4fe91f26703",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01-Computing Infrastuctures/Fog Nodes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Fog Nodes"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "25e0a1af7148e474",
+    "type": "split",
+    "children": [
+      {
+        "id": "8832718d97c76191",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d2d95bbd0e0560a3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "000f397c8ff35095",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "b1f4693143260600",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "cb28aaab943f3ba6",
+    "type": "split",
+    "children": [
+      {
+        "id": "6e4d358970586a1b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a9c3ebf549319f22",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "01-Computing Infrastuctures/IoT Devices.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for IoT Devices"
+            }
+          },
+          {
+            "id": "b267dea71cb26513",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "01-Computing Infrastuctures/IoT Devices.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from IoT Devices"
+            }
+          },
+          {
+            "id": "09417809f1322ad6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d908679df66f1567",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "01-Computing Infrastuctures/IoT Devices.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of IoT Devices"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "abf5dbdc26d07b25",
+  "lastOpenFiles": [
+    "01-Computing Infrastuctures/Computing Infrastructures.md",
+    "01-Computing Infrastuctures/IoT Devices.md",
+    "01-Computing Infrastuctures/Edge or Fog Computing.md",
+    "01-Computing Infrastuctures/Edge Nodes.md",
+    "00-Data Center & Co/Colocation Data center.md",
+    "00-Data Center & Co/Data Center.md",
+    "00-Data Center & Co/Third Party Data center.md",
+    "00-Data Center & Co/Enterprise Data center.md",
+    "00-Data Center & Co/Cloud Service/Infrastructure as a Service (IaaS).md",
+    "00-Data Center & Co/Cloud Service/Cloud Computing.md",
+    "pics/Screenshot from 2025-04-15 15-03-48.png",
+    "01-Computing Infrastuctures/Fog Nodes.md",
+    "01-Computing Infrastuctures/Embedded Pc.md",
+    "00-Data Center & Co/Cloud Service/Platform as a Service (PaaS).md",
+    "00-Data Center & Co/Cloud Service/Software as a Service (SaaS).md",
+    "Edge",
+    "pics/Screenshot from 2025-04-15 12-54-54.png",
+    "pics/Screenshot from 2025-04-15 12-53-04.png",
+    "pics/Screenshot from 2025-03-31 10-25-17.png",
+    "README.md",
+    "Equipment.md",
+    "2025-04-15.md",
+    "01-Computing Infrastuctures",
+    "pics",
+    "00-Data Center & Co/Cloud Service",
+    "00-intro",
+    "pics/Screenshot from 2025-04-15 12-09-35.png",
+    "00-Data Center & Co",
+    "Untitled.md",
+    "Infrastructure needed to power.md"
+  ]
+}

@@ -1,0 +1,1 @@
+ >More capable than simple sensors, **placed physically close** to **data sources** to perform local data processing or filtering.
