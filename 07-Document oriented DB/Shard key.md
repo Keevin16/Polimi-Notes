@@ -4,3 +4,5 @@
 Note:
 	- The max [[chunks]] size is of 64 MB
 	- [[🍂 Cap 7- MongoDB]] automatically splits & migrates [[chunks]] when the max dimension is reached
+
+#MongoDB

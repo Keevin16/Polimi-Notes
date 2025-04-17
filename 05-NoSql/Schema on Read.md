@@ -5,3 +5,6 @@ An other key characteristic is that new analysis can be introduced in any point 
 It's possible to notice before the Data View the [[Extract Transform Load]].
 
 ![[Screenshot from 2025-04-14 10-30-04.png]]
+
+
+#NoSql

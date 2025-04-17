@@ -4,3 +4,5 @@ It contains data that has been **transformed, enriched, and structured** for **s
 - Business rules are applied (e.g., currency conversion, categorization)
 - Optimized format (columnar like Parquet, ORC)
 - Ready for use by analysts or reporting tools (Power BI, Tableau, etc.)
+
+#NoSql

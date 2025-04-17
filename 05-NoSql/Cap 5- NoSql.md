@@ -11,3 +11,5 @@ To deal with the [[Schema on Read]], which needs data ready to be processed, in 
 We've seen that an important concept is the necessity of increasing the [[Scalability]].
 
 Cause we are working with distributed system, we have to deal with the [[CAP theorem]].
+
+#NoSql

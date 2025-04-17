@@ -5,3 +5,5 @@ The properties are:
 	[[Durability]]: The effect of a trans. that has successfully committed will last “forever”
 
 **Goal**: Focused on strong [[Consistency]] and [[Reliability]].
+
+#DataArchitecture

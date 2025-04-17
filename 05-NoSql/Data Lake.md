@@ -8,3 +8,5 @@ The steps of a Data Lake pipeline are:
 	-[[Trusted Zone]]
 	-[[Refined Zone]]
 	The last is the [[Consumer System]], which is not part of the data lake zone.
+
+#NoSql

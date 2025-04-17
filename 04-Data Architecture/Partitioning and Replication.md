@@ -7,3 +7,5 @@ The [[Replication]] instead is the process of copying and maintaining the same d
 ---
 
 ![[Screenshot from 2025-04-14 10-06-39.png]]
+
+#DataArchitecture

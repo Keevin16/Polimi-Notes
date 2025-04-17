@@ -11,10 +11,14 @@
             "id": "82834c5e35e9f612",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "08- Key-value DB/Key-Value and Caching.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Key-Value and Caching"
             }
           }
         ]
@@ -146,6 +150,16 @@
               "icon": "lucide-list",
               "title": "Outline of IoT Devices"
             }
+          },
+          {
+            "id": "395ec9418df6d62a",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
           }
         ]
       }
@@ -164,54 +178,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d2d95bbd0e0560a3",
+  "active": "82834c5e35e9f612",
   "lastOpenFiles": [
-    "08-Redis",
-    "07-MongoDB/🍂 Cap 7- MongoDB.md",
-    "Tag Sharding.md",
-    "07-MongoDB/Documents.md",
-    "document.md",
-    "07-MongoDB/Sharding.md",
-    "07-MongoDB/Hash Sharding.md",
-    "07-MongoDB/Range Sharding.md",
-    "Sh]ard.md",
-    "07-MongoDB/Shard key.md",
-    "Geo-Locality.md",
-    "07-MongoDB/MongoS.md",
-    "07-MongoDB/BSON.md",
-    "07-MongoDB/chunks.md",
-    "07-MongoDB/Collections.md",
-    "07-MongoDB/document-oriented database.md",
-    "07-MongoDB/Schemaless.md",
-    "07-MongoDB/Shard.md",
-    "pics/Screenshot from 2025-04-15 18-24-11.png",
-    "04-Data Architecture/Transaction.md",
-    "04-Data Architecture/Partitioning.md",
-    "04-Data Architecture/ACID.md",
-    "06-Neo4J/Neo4J Exercises.md",
-    "06-Neo4J/Graph database.md",
-    "06-Neo4J/Graph.md",
+    "08- Key-value DB/data structures.md",
+    "08- Key-value DB/🟥 cap 8- Redis.md",
+    "08- Key-value DB/Scaling Redis.md",
+    "08- Key-value DB/Key-value database.md",
+    "08- Key-value DB/Key-Value and Caching.md",
+    "08- Key-value DB/Twemproxy.md",
     "pics/ShardingExample-2257192689.png",
-    "06-Neo4J/🕳️ Cap 6- Neo4J.md",
-    "pics/Screenshot from 2025-04-15 17-07-02.png",
-    "05-NoSql/Transient zone.md",
-    "pics/Screenshot from 2025-04-14 14-59-07.png",
-    "pics/Screenshot from 2025-04-14 11-46-40.png",
-    "pics/Screenshot from 2025-04-14 10-30-04.png",
-    "pics/Screenshot from 2025-04-14 10-02-09.png",
-    "pics/Screenshot from 2025-04-14 12-04-07.png",
-    "pics/Screenshot from 2025-04-14 11-42-40.png",
-    "pics/Screenshot from 2025-04-14 11-36-27.png",
+    "pics/Pasted image 20250417135406.png",
+    "pics/Screenshot from 2025-04-17 13-53-53.png",
+    "pics/Screenshot from 2025-04-17 13-51-16.png",
+    "pics/Screenshot from 2025-04-17 13-49-22.png",
+    "04-Data Architecture/Partitioning.md",
+    "07-Document oriented DB/Sharding.md",
+    "pics/Screenshot from 2025-04-17 13-45-23.png",
+    "pics/Screenshot from 2025-04-17 13-43-22.png",
+    "pics/Screenshot from 2025-04-16 17-41-27.png",
+    "**data structures**.md",
+    "pics/Screenshot from 2025-04-16 17-39-47.png",
+    "pics/Screenshot from 2025-04-16 17-16-01.png",
+    "System and Methods for Big and Unstructured Data.md",
+    "07-Document oriented DB/Tag Sharding.md",
+    "07-Document oriented DB/Range Sharding.md",
+    "07-Document oriented DB/Shard key.md",
+    "07-Document oriented DB/Shard.md",
+    "07-Document oriented DB/Schemaless.md",
+    "07-Document oriented DB/MongoS.md",
+    "07-Document oriented DB/Hash Sharding.md",
+    "07-Document oriented DB/Documents.md",
+    "07-Document oriented DB/document-oriented database.md",
+    "07-Document oriented DB/Collections.md",
+    "07-Document oriented DB/chunks.md",
+    "07-Document oriented DB/BSON.md",
+    "07-Document oriented DB/🍂 Cap 7- MongoDB.md",
+    "06-Graph DB/Neo4J Exercises.md",
+    "06-Graph DB/Graph database.md",
+    "08- Key-value DB",
     "pics",
-    "07-MongoDB",
-    "06-Neo4J",
+    "07-Document oriented DB",
+    "06-Graph DB",
     "05-NoSql",
     "04-Data Architecture",
     "00-Intro",
     "Untitled.canvas",
     "Edge",
     "01-Computing Infrastuctures",
-    "00-Data Center & Co/Cloud Service",
-    "00-intro"
+    "00-Data Center & Co/Cloud Service"
   ]
 }

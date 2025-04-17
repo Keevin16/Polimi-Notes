@@ -7,3 +7,5 @@
 - Chunks are **migrated across shards** as needed for **balancing**
 
 >HOW THE DATA IS GROUPED BEFORE TO BE ASSIGNED TO A SHARD
+
+#MongoDB

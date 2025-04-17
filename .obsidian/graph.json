@@ -8,44 +8,58 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:\"04-Data Architecture\"  ",
+      "query": "tag:#NoSql  ",
       "color": {
         "a": 1,
         "rgb": 14701138
       }
     },
     {
-      "query": "path:05-NoSql  ",
+      "query": "tag:#DataArchitecture  ",
       "color": {
         "a": 1,
         "rgb": 14725458
       }
     },
     {
-      "query": "path:06-Neo4J  ",
+      "query": "tag:#Intro  ",
       "color": {
         "a": 1,
-        "rgb": 5420768
+        "rgb": 11657298
       }
     },
     {
-      "query": "",
+      "query": "tag:#MongoDB  ",
       "color": {
         "a": 1,
         "rgb": 5431378
+      }
+    },
+    {
+      "query": "tag:#Neo4J  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
+    },
+    {
+      "query": "tag:#Redis  ",
+      "color": {
+        "a": 1,
+        "rgb": 5419488
       }
     }
   ],
   "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": 0,
+  "textFadeMultiplier": -0.4,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
-  "centerStrength": 0.572916666666667,
-  "repelStrength": 14.6875,
-  "linkStrength": 0.432291666666667,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.6174926392541205,
+  "scale": 0.49683287268585785,
   "close": false
 }

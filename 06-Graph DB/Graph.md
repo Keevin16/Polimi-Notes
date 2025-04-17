@@ -28,3 +28,5 @@ List of definition for **Paths**:
 	• **Incidence Matrix** is an E x V matrix. It contains the edge's data.
 	• **Adjacency matrix** is a V x V, with boolean values of edge weights.
 		If graph is undirected --> the A. matrix will be symmetric 
+
+#Neo4J

@@ -8,5 +8,4 @@ Introduction:
 NoSQL databases:
 	[[🕳️ Cap 6- Neo4J]]
 	[[🍂 Cap 7- MongoDB]]
-
-#SMBUD
+	[[🟥 cap 8- Redis]]

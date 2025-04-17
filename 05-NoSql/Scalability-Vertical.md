@@ -5,3 +5,4 @@ The solution to achieve better performance when the machine no longer perform is
 	![[Screenshot from 2025-04-14 11-36-27.png]]->The [[Commodity hardware ]]
 	->The [[Appliance]] 
 
+#NoSql

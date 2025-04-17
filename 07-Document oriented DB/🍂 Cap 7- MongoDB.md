@@ -31,4 +31,5 @@ Note:
 		**partition tolerance** because it will handle failure without going offline
 		 **Consistent** because it will return the result only if the data is consistent in all the replicas
 		 **Availability** is only partial, if something is wrong there's an error message 
-	
+
+#MongoDB

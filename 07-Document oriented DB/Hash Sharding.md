@@ -4,3 +4,5 @@
   
 DOWNSIDE:
 	This have no human-meaning also if you want to look up for all documents with 20<age<30 (choosing before as age as the hash shard key) you need to look in all shards (20 and 21 could be in different shard even if similar in human-meaning)
+
+#MongoDB

@@ -11,3 +11,5 @@ Big data is characterized by the **[[4 V's]]**:
 2. **Variety**: Includes structured (e.g., relational tables), semi-structured (e.g., JSON, XML), and unstructured data (e.g., text, multimedia).
 3. **Velocity**: Continuous data streams requiring real-time or near-real-time analysis.
 4. **Veracity**: Data can be imprecise and unpredictable, requiring management.
+
+#Intro

@@ -5,3 +5,5 @@ It contains data that has been **validated** for accuracy, completeness, and con
 - Bad records are removed or flagged
 - Still resembles the **original structure** (just verified)
 - Often includes **data quality scores or logs**
+
+#NoSql

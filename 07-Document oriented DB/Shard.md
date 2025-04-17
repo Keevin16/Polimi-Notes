@@ -4,3 +4,5 @@ A single shard could be a single [[MongoD]] or a **replica set**
 
 - A full dataset is split across multiple shards
 - Each shard handles read/write for its own data
+
+#MongoDB

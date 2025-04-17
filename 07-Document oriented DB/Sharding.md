@@ -19,3 +19,4 @@ There're several type of [[Sharding]]
 	[[Tag Sharding]]
 	[[Random]], which is not optimal because MongoS has to search in **each** **shard** of **each** **document**
 
+#MongoDB

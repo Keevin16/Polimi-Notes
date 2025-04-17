@@ -1,4 +1,4 @@
->Take one or more **attributes** of the [[documents]] and use them as [[Shard key]], in this way the value of that attribute is the **discriminator** for deciding **where to put** the [[documents]]
+>Take one or more **attributes** of the [[Documents]] and use them as [[Shard key]], in this way the value of that attribute is the **discriminator** for deciding **where to put** the [[Documents]]
 
   
 
@@ -18,3 +18,5 @@ NOTE: (improving performance)
 
 DOWNSIDE: 
 	**distribution** problem: if the attribute value of the shard key follows a distribution, then some shard will be full while others empty ⇒ even if I fix this I can not guarantee it will remains like this
+
+#MongoDB
