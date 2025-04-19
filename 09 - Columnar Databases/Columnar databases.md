@@ -37,7 +37,7 @@ Obtaining better performance for operations that require applications to **read 
 - If you **want to read an object** (row) you need to **recombine many columns**
 - Increase **Disk seek time**
 - increase **tuple reconstruction cost**
-	![[Pasted image 20250418184935.png]]Read **few columns**--> **Columnar** databases (red) is **better than row databases** (blue)
+	![[Pasted image 20250419100313.png]]Read **few columns**--> **Columnar** databases (red) is **better than row databases** (blue)
     Read a **lot of columns**--> **Columnar** database is **worst then row database**
 
 ### Compression

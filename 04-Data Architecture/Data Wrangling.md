@@ -1,4 +1,4 @@
-Is the process of transforming **raw, messy, or unstructured data** into a clean and structured format suitable for analysis. It is a critical step in any data workflow, ensuring that data can be trusted and used to generate **valid, actionable insights**.
+>Is the process of transforming **raw, messy, or unstructured data** into a clean and structured format suitable for analysis. It is a critical step in any data workflow, ensuring that data can be trusted and used to generate **valid, actionable insights**.
 
 This process typically involves:
 

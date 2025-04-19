@@ -8,48 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "82834c5e35e9f612",
+            "id": "1250cf38dc5c98b2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "09 - Columnar Databases/Cassandra Architecture.md",
+                "file": "04-Data Architecture/Data Wrangling.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cassandra Architecture"
+              "title": "Data Wrangling"
             }
           },
           {
-            "id": "57dd49cc3b9b6fae",
+            "id": "b00074ce7dbee345",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "09 - Columnar Databases/👁️ cap 9 - Cassandra.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "👁️ cap 9 - Cassandra"
-            }
-          },
-          {
-            "id": "7c914aac82f39e5d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "09 - Columnar Databases/partition key.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "partition key"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -206,54 +189,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "82834c5e35e9f612",
+  "active": "d2d95bbd0e0560a3",
   "lastOpenFiles": [
-    "Pasted image 20250419095356.png",
-    "09 - Columnar Databases/👁️ cap 9 - Cassandra.md",
-    "09 - Columnar Databases/Cassandra Architecture.md",
+    "13- Spark",
+    "12 - Vector DB",
+    "11 - Information Retrieval DB",
+    "10 - API & Data Scraping",
+    "08- Key-value DB/Twemproxy.md",
     "System and Methods for Big and Unstructured Data.md",
+    "14 - Data Warehouse/Cloud-Based Data Warehouse.md",
+    "14 - Data Warehouse/🏭 Data Warehouse.md",
+    "pics/Pasted image 20250419153845.png",
+    "04-Data Architecture/Data Wrangling.md",
+    "04-Data Architecture/Data Pipeline.md",
+    "04-Data Architecture/Data Ingestion.md",
+    "14 - Data Warehouse/DSS.md",
+    "04-Data Architecture/Cap 4- Data architecture.md",
+    "14 - Data Warehouse/Data Warehouse Models.md",
+    "14 - Data Warehouse/Data Warehouse Architecture.md",
+    "pics/Pasted image 20250419152637.png",
+    "pics/Pasted image 20250419152514.png",
+    "pics/Pasted image 20250419152225.png",
+    "pics/Pasted image 20250419123706.png",
+    "Pasted image 20250419123545.png",
+    "pics/Pasted image 20250419123121.png",
+    "Untitled.md",
+    "pics/Pasted image 20250419122339.png",
+    "14 - Data Warehouse/OLTP.md",
+    "14 - Data Warehouse/OLAP.md",
+    "09 - Columnar Databases/Cassandra Architecture.md",
+    "pics/Pasted image 20250419114410.png",
+    "pics/Pasted image 20250419113540.png",
+    "09 - Columnar Databases/👁️ cap 9 - Cassandra.md",
     "09 - Columnar Databases/Cassandra Structure.md",
-    "04-Data Architecture/BASE.md",
-    "pics/Pasted image 20250418194956.png",
-    "cassandra_ring-3296597334.png",
     "09 - Columnar Databases/clustering keys.md",
-    "09 - Columnar Databases/partition key.md",
     "09 - Columnar Databases/Columnar databases.md",
     "09 - Columnar Databases/columns.md",
-    "08- Key-value DB/Scaling Redis.md",
-    "08- Key-value DB/Twemproxy.md",
-    "07-Document oriented DB/Sharding.md",
-    "08- Key-value DB/🟥 cap 8- Redis.md",
-    "07-Document oriented DB/Range Sharding.md",
-    "pics/Pasted image 20250418192903.png",
-    "keyspaces.md",
-    "column families.md",
-    "pics/Pasted image 20250418192259.png",
-    "07-Document oriented DB/🍂 Cap 7- MongoDB.md",
-    "pics/Pasted image 20250418191235.png",
-    "pics/Pasted image 20250418191224.png",
-    "pics/Pasted image 20250418190714.png",
-    "pics/Pasted image 20250418190631.png",
-    "08- Key-value DB/Key-value database.md",
-    "pics/Pasted image 20250418184935.png",
-    "pics/Pasted image 20250418184851.png",
-    "AP.md",
+    "09 - Columnar Databases/partition key.md",
+    "00-Intro/Intro.md",
+    "04-Data Architecture/BASE.md",
+    "Untitled/Untitled",
+    "14 - Data Warehouse",
+    "05-NoSql/CAP theorem.md",
+    "Pasted image 20250418184935.png.md",
     "09 - Columnar Databases",
-    "08- Key-value DB/Key-Value and Caching.md",
-    "08- Key-value DB/data structures.md",
-    "04-Data Architecture/Partitioning.md",
-    "**data structures**.md",
-    "07-Document oriented DB/Tag Sharding.md",
-    "07-Document oriented DB/Shard key.md",
     "08- Key-value DB",
     "pics",
     "07-Document oriented DB",
     "06-Graph DB",
-    "05-NoSql",
-    "04-Data Architecture",
-    "00-Intro",
-    "Untitled.canvas",
-    "Edge",
-    "01-Computing Infrastuctures"
+    "Untitled.canvas"
   ]
 }

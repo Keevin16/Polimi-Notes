@@ -1,7 +1,7 @@
 #### [[Data-Driven]] Decision Making
-
-- Companies now rely on data for decision-making, moving away from instinct-based decisions.
-- Data-driven decisions are more effective, predictable, and profitable.
+>Data-driven decisions can be guided by **Descriptive**, **Predictive**, **Diagnostic** and **Prescriptive** analysis.
+- Companies now rely on data for decision-making, moving away from instinct-based **decisions**.
+- Data-driven decisions are more effective, **predictable**, and **profitable**.
 - Requires large amounts of well-organized and stored data.
 - Analytical capability depends on available data, which limits execution capability.
 
