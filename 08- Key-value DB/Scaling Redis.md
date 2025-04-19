@@ -13,7 +13,7 @@ There are two main mechanism to save data:
 ---
 ### Replication
 It's possible to replicate with different **topologies**
-#### [[Master-Slave - topology 1]]
+#### [[Master-Slave - topology 1]]-->[[CA]]
 It's possible to split up in two different main nodes:
 	**Master**: where the **primary copy** of the data is (possible to read and write)
 	**Slave**: **replicate** the **Master** to create a copy 
@@ -53,7 +53,7 @@ How to deal and handle master node failure
 	sentinels constantly monitor failover, with a **quorum-based system** decides if there is a failure and promotes one of the slaves to become the new master
 	![[Screenshot from 2025-04-17 13-45-23.png]]
 
-- **Automatic failover with [[Redis Cluster - topology 4]]** (Cluster Topology)
+- **Automatic failover with [[Redis Cluster - topology 4]]** (Cluster Topology) --> [[AP]]
 	cluster consists of **multiple master nodes** and their **associated slave nodes**. **Cluster** **automatically detects failure** and **promotes a slave** to **master**. The new master takes over the failed master's hash slots
 		- **Three servers** with **one master** and **two slaves** and **three sentinels**
 			in this way **if the master is not working** the **sentinel detect** it and talk to each other ⇒ **decide which slave should replace** the non-working master

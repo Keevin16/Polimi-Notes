@@ -13,12 +13,40 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "08- Key-value DB/Key-Value and Caching.md",
+                "file": "09 - Columnar Databases/Cassandra Architecture.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Key-Value and Caching"
+              "title": "Cassandra Architecture"
+            }
+          },
+          {
+            "id": "57dd49cc3b9b6fae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "09 - Columnar Databases/👁️ cap 9 - Cassandra.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "👁️ cap 9 - Cassandra"
+            }
+          },
+          {
+            "id": "7c914aac82f39e5d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "09 - Columnar Databases/partition key.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "partition key"
             }
           }
         ]
@@ -157,8 +185,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ]
@@ -180,41 +208,43 @@
   },
   "active": "82834c5e35e9f612",
   "lastOpenFiles": [
-    "08- Key-value DB/data structures.md",
-    "08- Key-value DB/🟥 cap 8- Redis.md",
-    "08- Key-value DB/Scaling Redis.md",
-    "08- Key-value DB/Key-value database.md",
-    "08- Key-value DB/Key-Value and Caching.md",
-    "08- Key-value DB/Twemproxy.md",
-    "pics/ShardingExample-2257192689.png",
-    "pics/Pasted image 20250417135406.png",
-    "pics/Screenshot from 2025-04-17 13-53-53.png",
-    "pics/Screenshot from 2025-04-17 13-51-16.png",
-    "pics/Screenshot from 2025-04-17 13-49-22.png",
-    "04-Data Architecture/Partitioning.md",
-    "07-Document oriented DB/Sharding.md",
-    "pics/Screenshot from 2025-04-17 13-45-23.png",
-    "pics/Screenshot from 2025-04-17 13-43-22.png",
-    "pics/Screenshot from 2025-04-16 17-41-27.png",
-    "**data structures**.md",
-    "pics/Screenshot from 2025-04-16 17-39-47.png",
-    "pics/Screenshot from 2025-04-16 17-16-01.png",
+    "Pasted image 20250419095356.png",
+    "09 - Columnar Databases/👁️ cap 9 - Cassandra.md",
+    "09 - Columnar Databases/Cassandra Architecture.md",
     "System and Methods for Big and Unstructured Data.md",
-    "07-Document oriented DB/Tag Sharding.md",
+    "09 - Columnar Databases/Cassandra Structure.md",
+    "04-Data Architecture/BASE.md",
+    "pics/Pasted image 20250418194956.png",
+    "cassandra_ring-3296597334.png",
+    "09 - Columnar Databases/clustering keys.md",
+    "09 - Columnar Databases/partition key.md",
+    "09 - Columnar Databases/Columnar databases.md",
+    "09 - Columnar Databases/columns.md",
+    "08- Key-value DB/Scaling Redis.md",
+    "08- Key-value DB/Twemproxy.md",
+    "07-Document oriented DB/Sharding.md",
+    "08- Key-value DB/🟥 cap 8- Redis.md",
     "07-Document oriented DB/Range Sharding.md",
-    "07-Document oriented DB/Shard key.md",
-    "07-Document oriented DB/Shard.md",
-    "07-Document oriented DB/Schemaless.md",
-    "07-Document oriented DB/MongoS.md",
-    "07-Document oriented DB/Hash Sharding.md",
-    "07-Document oriented DB/Documents.md",
-    "07-Document oriented DB/document-oriented database.md",
-    "07-Document oriented DB/Collections.md",
-    "07-Document oriented DB/chunks.md",
-    "07-Document oriented DB/BSON.md",
+    "pics/Pasted image 20250418192903.png",
+    "keyspaces.md",
+    "column families.md",
+    "pics/Pasted image 20250418192259.png",
     "07-Document oriented DB/🍂 Cap 7- MongoDB.md",
-    "06-Graph DB/Neo4J Exercises.md",
-    "06-Graph DB/Graph database.md",
+    "pics/Pasted image 20250418191235.png",
+    "pics/Pasted image 20250418191224.png",
+    "pics/Pasted image 20250418190714.png",
+    "pics/Pasted image 20250418190631.png",
+    "08- Key-value DB/Key-value database.md",
+    "pics/Pasted image 20250418184935.png",
+    "pics/Pasted image 20250418184851.png",
+    "AP.md",
+    "09 - Columnar Databases",
+    "08- Key-value DB/Key-Value and Caching.md",
+    "08- Key-value DB/data structures.md",
+    "04-Data Architecture/Partitioning.md",
+    "**data structures**.md",
+    "07-Document oriented DB/Tag Sharding.md",
+    "07-Document oriented DB/Shard key.md",
     "08- Key-value DB",
     "pics",
     "07-Document oriented DB",
@@ -224,7 +254,6 @@
     "00-Intro",
     "Untitled.canvas",
     "Edge",
-    "01-Computing Infrastuctures",
-    "00-Data Center & Co/Cloud Service"
+    "01-Computing Infrastuctures"
   ]
 }

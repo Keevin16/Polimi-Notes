@@ -38,5 +38,5 @@ NOTE:
 		Everything is sequential so it's not important to take in account the conflicts
 	Every **operation** is **atomic**
 	It have O(1) complexity ⇒ take same amount to retrieve 1 MB or 200 TB of data
-
+	[[not Open source]]
 #Redis

@@ -23,3 +23,5 @@
 
 Use temporal locality to decide what to keep in the cache and what not
 - Data that has been access recently is likely that will be used again very soon
+
+#Redis
