@@ -1,4 +1,4 @@
-Cassandra has a [[Ring topology]] for each data center (**Cluster**), as told before it's **master less**.
+Cassandra has a [[Ring topology]] for each data center (**Cluster**), as told before it's **masterless**.
 ![[Pasted image 20250418194956.png]]
 ### Write
 In order to write the **client** sends write command to **one front-end node** in Cassandra **cluster**, which send it to all the **replica node**.

@@ -1,0 +1,1 @@
+Kibana is a data visualization dashboard for [[Elasticsearch]].
