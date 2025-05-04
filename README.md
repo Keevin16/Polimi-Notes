@@ -1,1 +1,1 @@
-The other notes about these argument are on the tablet 
+Notes about SYSTEMS AND METHODS FOR BIG AND UNSTRUCTURED DATA at Polimi
