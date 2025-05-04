@@ -16,12 +16,13 @@
 	-->[[ACID]]
 	-->[[Schemaless]] (Schema - free)
 	-->[[Open Source]]
+	-->[[Drivers]]
 	-->Efficient on nodes but not in whole-graph analysis 
-	-----> [[AP]], remark that is not a distributed system
+	-----> remark that is not a distributed system, so the CAP theorem is useless
 
 
 **Software architecture**:
 ![[Pasted image 20250414145954.png]]
-[[Neo4J Exercises]]
+[[Cypher]]
 
 #Neo4J

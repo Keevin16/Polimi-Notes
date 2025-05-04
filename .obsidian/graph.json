@@ -1,86 +1,100 @@
 {
-  "collapse-filter": false,
+  "collapse-filter": true,
   "search": "",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
-  "showOrphans": false,
+  "showOrphans": true,
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag:#NoSql  ",
+      "query": "path:00-Intro  ",
       "color": {
         "a": 1,
         "rgb": 14701138
       }
     },
     {
-      "query": "tag:#DataArchitecture  ",
+      "query": "path:\"04-Data Architecture\"  ",
       "color": {
         "a": 1,
         "rgb": 14725458
       }
     },
     {
-      "query": "tag:#Intro  ",
+      "query": "path:05-NoSql ",
       "color": {
         "a": 1,
         "rgb": 11657298
       }
     },
     {
-      "query": "tag:#MongoDB  ",
+      "query": "path:\"06-Graph DB\"  ",
       "color": {
         "a": 1,
         "rgb": 5431378
       }
     },
     {
-      "query": "tag:#Neo4J  ",
+      "query": "path:\"07-Document oriented DB\"  ",
       "color": {
         "a": 1,
         "rgb": 5431473
       }
     },
     {
-      "query": "tag:#Redis  ",
+      "query": "path:\"08- Key-value DB\"  ",
       "color": {
         "a": 1,
         "rgb": 5419488
       }
     },
     {
-      "query": "tag:#Cassandra  ",
+      "query": "path:\"09 - Columnar Databases\"  ",
       "color": {
         "a": 1,
         "rgb": 5395168
       }
     },
     {
-      "query": "tag:#DataWarehouse  ",
+      "query": "path:\"10 - API & Data Scraping\"  ",
       "color": {
         "a": 1,
         "rgb": 11621088
       }
     },
     {
-      "query": "tag:#API  ",
+      "query": "path:\"11 - Information Retrieval DB\"  ",
       "color": {
         "a": 1,
         "rgb": 14701233
+      }
+    },
+    {
+      "query": "path:\"12 - Vector DB\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "path:\"14 - Data Warehouse\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
       }
     }
   ],
   "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": -0.4,
+  "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
-  "collapse-forces": false,
+  "collapse-forces": true,
   "centerStrength": 0.518713248970312,
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.2528777470767291,
+  "scale": 0.9728510535247265,
   "close": true
 }

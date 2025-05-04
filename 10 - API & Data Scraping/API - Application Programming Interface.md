@@ -1,5 +1,6 @@
-API are endpoints from which the user can send some request to gather data.
+>API are endpoints from which the user can send some request to gather data.
 Thanks to these **endpoints** it's **hidden all the complexity** on how the data is stored.
+
 They are **all different**, for this reason is important to read the documentation before.
 To communicate with it are used **HTTP methods** or **Libraries**.
 	To dev and test APIs there're many tools, one of them is Postman
