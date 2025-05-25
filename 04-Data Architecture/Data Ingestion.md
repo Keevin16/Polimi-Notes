@@ -2,7 +2,6 @@ The process of **importing, transferring, and loading data** is a fundamental st
 It's the first process of a Data pipeline!!
 
 To optimize performance and storage efficiency, the data often undergoes **transformation and formatting**. This may include cleaning, standardizing, or re-structuring the data. A common technique in Big Data systems is the adjustment of file sizes:
-
 - **Small files** (e.g., logs or sensor data) are **concatenated** into larger files, typically hundreds of megabytes, to reduce overhead and improve processing efficiency.
 - **Large files** are **split** into smaller chunks (also hundreds of megabytes) to enable **parallel processing** and distributed storage across the system.
 

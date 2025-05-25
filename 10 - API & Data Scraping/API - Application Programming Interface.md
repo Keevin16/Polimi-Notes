@@ -3,7 +3,7 @@ Thanks to these **endpoints** it's **hidden all the complexity** on how the data
 
 They are **all different**, for this reason is important to read the documentation before.
 To communicate with it are used **HTTP methods** or **Libraries**.
-	To dev and test APIs there're many tools, one of them is Postman
+	To dev and test APIs there're many tools, one of them is **Postman**
 
 
 Examples of some API

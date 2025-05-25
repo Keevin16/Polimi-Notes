@@ -1,4 +1,4 @@
-[[👁️ cap 9 - Cassandra]] is a [[Columnar databases]] management system designed to handle large volumes of data across multiple commodity servers.
+[[👁️ cap 9 - Cassandra]] is a [[Columnar databases]] management system highly scalable, high-performance distributed database designed to handle large amounts of data, providing high availability with no single point of failure.
 
 [[Cassandra Structure]] ---  How component are organized
 [[Cassandra Architecture]] --- Overall design of the system (Structure + Behavior)

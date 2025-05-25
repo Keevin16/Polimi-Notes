@@ -4,35 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b8feedb91cff612d",
+        "id": "47c89828a74394e5",
         "type": "tabs",
         "children": [
           {
-            "id": "651626d85bc3acd6",
+            "id": "86aca20d9a638e0b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07-Document oriented DB/🍂 Cap 7- MongoDB.md",
+                "file": "First Exercise.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "🍂 Cap 7- MongoDB"
-            }
-          },
-          {
-            "id": "6e713b8436e6842e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "05-NoSql/Cap 5- NoSql.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Cap 5- NoSql"
+              "title": "First Exercise"
             }
           }
         ]
@@ -67,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "clo",
+                "query": "cluster",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -192,35 +178,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "651626d85bc3acd6",
+  "active": "86aca20d9a638e0b",
   "lastOpenFiles": [
-    "10 - API & Data Scraping/API - Application Programming Interface.md",
-    "06-Graph DB/Cypher.md",
-    "First Exercise.md",
-    "06-Graph DB/🕳️ Cap 6- Neo4J.md",
-    "11 - Information Retrieval DB/Elasticsearch.md",
-    "11 - Information Retrieval DB/ELK Stack.md",
-    "06-Graph DB/Neo4J Exercises.md",
-    "05-NoSql/Cap 5- NoSql.md",
-    "06-Graph DB/Drivers.md",
-    "06-Graph DB/Graph database.md",
-    "06-Graph DB/Graph.md",
-    "Pasted image 20250502174056.png",
-    "10 - API & Data Scraping/DOM - Document Object Model.md",
-    "10 - API & Data Scraping/Data Scraping.md",
+    "System and Methods for Big and Unstructured Data.md",
     "README.md",
-    "07-Document oriented DB/Sharding.md",
-    "01-Computing Infrastuctures/Computing Infrastructures.md",
-    "01-Computing Infrastuctures/Edge Nodes.md",
-    "00-Data Center & Co/Cloud Service/Cloud Computing.md",
-    "00-Data Center & Co/Colocation Data center.md",
-    "00-Data Center & Co/Data Center.md",
-    "00-Data Center & Co/Enterprise Data center.md",
-    "00-Data Center & Co/Third Party Data center.md",
-    "00-Data Center & Co/Cloud Service/Software as a Service (SaaS).md",
-    "00-Data Center & Co/Cloud Service/Platform as a Service (PaaS).md",
-    "00-Data Center & Co/Cloud Service/Infrastructure as a Service (IaaS).md",
+    "Questions CI.md",
+    "11 - Information Retrieval DB/Elasticsearch.md",
+    "11 - Information Retrieval DB/Query DSL.md",
+    "10 - API & Data Scraping/API - Application Programming Interface.md",
+    "07-Document oriented DB/Sharding/Sharding.md",
+    "05-NoSql/Extract Transform Load.md",
+    "05-NoSql/Schema on Read.md",
+    "05-NoSql/Schema On Write.md",
+    "12 - Vector DB/Vector Databases.md",
+    "11 - Information Retrieval DB/ELK Stack.md",
+    "11 - Information Retrieval DB/Kibana.md",
+    "11 - Information Retrieval DB/Logstash.md",
+    "10 - API & Data Scraping/DOM - Document Object Model.md",
+    "08- Key-value DB/Exercises.md",
+    "08- Key-value DB/Scaling Redis.md",
+    "08- Key-value DB/🟥 cap 8- Redis.md",
     "09 - Columnar Databases/👁️ cap 9 - Cassandra.md",
+    "04-Data Architecture/Data Wrangling.md",
+    "04-Data Architecture/Cap 4- Data architecture.md",
+    "05-NoSql/Trusted Zone.md",
+    "05-NoSql/Transient zone.md",
+    "05-NoSql/Scalability-Vertical.md",
+    "05-NoSql/Scalability.md",
+    "05-NoSql/Refined Zone.md",
+    "07-Document oriented DB/Sharding",
+    "Pasted image 20250502174056.png",
     "pics/Pasted image 20250502164129.png",
     "pics/Pasted image 20250502163900.png",
     "pics/Pasted image 20250502163637.png",
@@ -239,7 +226,6 @@
     "10 - API & Data Scraping",
     "09 - Columnar Databases",
     "08- Key-value DB",
-    "07-Document oriented DB",
     "Untitled.canvas"
   ]
 }

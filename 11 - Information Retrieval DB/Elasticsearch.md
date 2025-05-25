@@ -4,23 +4,23 @@ It's built on Apache Lucene, with the purpose to be an internal search engine fo
 
 Features:
 - **Real-time search**: Documents can be searched almost immediately after being indexed ("loaded" into the database).
-- **Short latency**: Optimized for fast operations on text.
+- **Short latency**: Optimized for schemalessfast operations on text.
 - **Distributed system**: Designed to scale across multiple servers.
 - **RESTful API**: Communicates using HTTP and JSON.
 - **Full-text search**: Can perform fast, simple searches across huge datasets.
 - **Storage format**: Uses JSON documents.
+- [[Schemaless]]
 - **Fast, scalable, resilient**.
 
 ---
 ### From RDBMS to Elasticsearch
-|RDBMS Concept|Elasticsearch Equivalent|
-|---|---|
-|Table|Index|
-|Row|Document (JSON)|
-|Column|Field|
-|Schema|Mapping|
-
----
+| RDBMS Concept | Elasticsearch Equivalent |
+| ------------- | ------------------------ |
+| Table         | Index                    |
+| Row           | Document (JSON)          |
+| Column        | Field                    |
+| Schema        | Mapping                  |
+***
 ### Relevance and Ranking 
 
 In the traditional databases the queries return **exact matches**.
@@ -50,3 +50,9 @@ In relational databases we have **key-value indexing**, **inverted index** is th
 
 Based on the [[Sharding]]!
 By the way despite of MongoDB, it's all replicated, so there's a division between Primary Sharding and Replica Sharding.
+
+Different from the MongoDB Sharding, there are only two types of mapping:
+- **Dynamic Mapping**: Elasticsearch takes care of **adding the new fields** **automatically** when a document is indexed.
+- **Explicit Mapping**: Makes the user define the mapping. Drawback: If the user doesn't have the knowledge it'll be a mess, breaking up the index. 
+
+Note: It's not possible to change the mapping on an existing Index that already has document!
