@@ -6,10 +6,10 @@ organization’s computing resources and associated components. These typically 
 - [[Equipment]]
 - [[ Infrastructure needed to power]]
 
->Remark: The goal of the [[Data Center]] is to reach all the people interested in one topic, for this reason needs several component to deal with it, **not only server**!
+>Remark: The goal of the **Data Center** is to reach all the people interested in one topic, for this reason needs several component to deal with it, **not only server**!
 
 **Key goals**: 
-- **High Availability and Redundancy
+- **High Availability and Redundancy**
 	Systems such as uninterruptible power supplies (UPS), backup generators, multiple network links, and redundant cooling to ensure minimal downtime.
 
 - **Environmental Controls**
@@ -24,7 +24,7 @@ organization’s computing resources and associated components. These typically 
 ---
 The **organizations** must decide whether to **build and maintain** their own data center or **rely partly or fully on external providers**. The following sections describe three primary approaches.
 
-There're different type of [[Data Center]], which are:
+There're different type of Data Center, which are:
 - [[Enterprise Data center]]
 - [[Colocation Data center]]
 - [[Third Party Data center]]

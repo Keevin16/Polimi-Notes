@@ -4,35 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "aa05db5ecf7d7ed0",
+        "id": "74b76685f28e4562",
         "type": "tabs",
         "children": [
           {
-            "id": "abf5dbdc26d07b25",
+            "id": "36aee7807dd27802",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "source",
+                "file": "Open Questions - Responses.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Open Questions - Responses"
             }
           },
           {
-            "id": "819ab4fe91f26703",
+            "id": "0527cdb7cb5974cf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-Computing Infrastuctures/Fog Nodes.md",
+                "file": "Open Questions - Responses.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fog Nodes"
+              "title": "Open Questions - Responses"
             }
           }
         ]
@@ -67,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "cluster",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-Computing Infrastuctures/IoT Devices.md",
+                "file": "Open Questions - Responses.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for IoT Devices"
+              "title": "Backlinks for Open Questions - Responses"
             }
           },
           {
@@ -164,6 +164,16 @@
               "icon": "lucide-list",
               "title": "Outline of IoT Devices"
             }
+          },
+          {
+            "id": "395ec9418df6d62a",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
           }
         ]
       }
@@ -182,37 +192,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "abf5dbdc26d07b25",
+  "active": "36aee7807dd27802",
   "lastOpenFiles": [
+    "Lettera Motivazionale.md",
+    "Open Questions.md",
+    "Open Questions - Responses.md",
+    "InCube.md",
     "01-Computing Infrastuctures/Computing Infrastructures.md",
-    "01-Computing Infrastuctures/IoT Devices.md",
     "01-Computing Infrastuctures/Edge or Fog Computing.md",
     "01-Computing Infrastuctures/Edge Nodes.md",
-    "00-Data Center & Co/Colocation Data center.md",
-    "00-Data Center & Co/Data Center.md",
     "00-Data Center & Co/Third Party Data center.md",
     "00-Data Center & Co/Enterprise Data center.md",
-    "00-Data Center & Co/Cloud Service/Infrastructure as a Service (IaaS).md",
+    "00-Data Center & Co/Data Center.md",
     "00-Data Center & Co/Cloud Service/Cloud Computing.md",
-    "pics/Screenshot from 2025-04-15 15-03-48.png",
+    "00-Data Center & Co/Cloud Service/Infrastructure as a Service (IaaS).md",
+    "README.md",
     "01-Computing Infrastuctures/Fog Nodes.md",
+    "00-Data Center & Co/Colocation Data center.md",
+    "01-Computing Infrastuctures/IoT Devices.md",
     "01-Computing Infrastuctures/Embedded Pc.md",
-    "00-Data Center & Co/Cloud Service/Platform as a Service (PaaS).md",
+    "Equipment.md",
+    "First Exercise.md",
+    "01-Computing Infrastuctures",
     "00-Data Center & Co/Cloud Service/Software as a Service (SaaS).md",
-    "Edge",
+    "00-Data Center & Co/Cloud Service/Platform as a Service (PaaS).md",
+    "00-Data Center & Co/Cloud Service",
+    "00-Data Center & Co",
+    "System and Methods for Big and Unstructured Data.md",
+    "Questions CI.md",
+    "11 - Information Retrieval DB/Elasticsearch.md",
+    "11 - Information Retrieval DB/Query DSL.md",
+    "10 - API & Data Scraping/API - Application Programming Interface.md",
+    "07-Document oriented DB/Sharding",
+    "Pasted image 20250502174056.png",
+    "pics/Pasted image 20250502164129.png",
+    "pics/Pasted image 20250502163900.png",
+    "pics/Pasted image 20250502163637.png",
+    "pics/Pasted image 20250502162711.png",
+    "pics/Pasted image 20250427115729.png",
+    "pics/Screenshot from 2025-04-15 15-03-48.png",
     "pics/Screenshot from 2025-04-15 12-54-54.png",
     "pics/Screenshot from 2025-04-15 12-53-04.png",
-    "pics/Screenshot from 2025-03-31 10-25-17.png",
-    "README.md",
-    "Equipment.md",
-    "2025-04-15.md",
-    "01-Computing Infrastuctures",
-    "pics",
-    "00-Data Center & Co/Cloud Service",
-    "00-intro",
     "pics/Screenshot from 2025-04-15 12-09-35.png",
-    "00-Data Center & Co",
-    "Untitled.md",
-    "Infrastructure needed to power.md"
+    "14 - Data Warehouse",
+    "12 - Vector DB",
+    "11 - Information Retrieval DB",
+    "10 - API & Data Scraping",
+    "09 - Columnar Databases",
+    "08- Key-value DB",
+    "Untitled.canvas"
   ]
 }

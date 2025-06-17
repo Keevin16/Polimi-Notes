@@ -3,9 +3,9 @@
 ![[Screenshot from 2025-04-15 12-09-35.png]]
 
 Main Cloud computing services:
--_>[[Infrastructure as a Service (IaaS)]]
--_>[[ Platform as a Service (PaaS)]]
--_>[[Software as a Service (SaaS)]]
+-_> [[Infrastructure as a Service (IaaS)]]
+-_> [[ Platform as a Service (PaaS)]]
+-_>  [[Software as a Service (SaaS)]]
 
 #CloudComputing
 
