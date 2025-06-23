@@ -1,4 +1,4 @@
->Sharding is a strategy for **horizontal [[Partitioning]]** of data using a [[Shard key]], where each [[Shard]] stores a subset of [[chunks]], ensuring efficient storage and query performance in **distributed databases**.
+>Sharding is a strategy for **horizontal [[Partitioning]]** (Horizontal Scalability) of data using a [[Shard key]], where each [[Shard]] stores a subset of [[chunks]], ensuring efficient storage and query performance in **distributed databases**.
 
 ![[ShardingExample-2257192689.png]]
 

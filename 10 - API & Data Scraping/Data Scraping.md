@@ -20,8 +20,8 @@ The combination of the two presented modules is the basis for a web scraper
 
 [[Selenium]] **interact** with the **webpage and simulate** **user interactions** and retrieves the final HTML content 
 
-[[ BeautifulSoup]] **processes the structure** of HTML and **locates specific elements** and **extracts text, attributes, or other information** 
-	 can save extracted data in the database
+[[ BeautifulSoup]] **processes the structure** of HTML and **locates specific elements** and **extracts text, attributes, or other information**.
+- can save extracted data in the database
 
 ### Protection
 Some sites have some protection against Data Scraping.

@@ -1,5 +1,4 @@
->def: **Caching**
-	 store smaller, faster and more efficient partial copy of the data located closer to where is needed (to reduce access time of frequently needed data)
+>DEF **Caching**: store smaller, faster and more efficient partial copy of the data located closer to where is needed (to reduce access time of frequently needed data)
 
 **Caches** are **implemented** as **key-value** (constant time access)
 

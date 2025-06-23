@@ -14,7 +14,8 @@ List of definition for **Graphs**:
 	• **Sparse** |E| = |V| 
 	• **Dense**  |E| = |V|^2
 
-There are many other but i reject to do it
+**Complete Graph** if every pair of vertices are adjacent, which mean n(n-1) edges
+**Planar Graph** if it's possible to draw in a plan, larges is K-4
 
 ---
 List of definition for **Paths**:

@@ -12,7 +12,7 @@ Ex: shard_key = age
   
 
 NOTE: (improving performance)
-	Choice of the [[Shard key]] is on us.
+	Choose of the [[Shard key]] is on us.
 	Choose a [[Shard key]] that aligns with the most common query patterns ⇒ queries that include the shard_key can directly target the correct [[Shard]] 
 
 

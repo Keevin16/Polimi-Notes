@@ -2,7 +2,7 @@
 
 ---
 Redis **could be used** as: 
-	**Database**, because it can persist data to the disk (http://try.redis.io)
+	**Database**, because it can persist data to the disk
 	**Caching layer** because is fast
 	**Message broker** 
 
@@ -33,9 +33,7 @@ Here how to deal with [[Key-Value and Caching]]
 ---
 NOTE:
 	written in **C**
-	Single threaded server
-		for this reason is possible to do a single action per time!
-		Everything is sequential so it's not important to take in account the conflicts
+	The **Core element loop** and the **command execution** is single thread, by the way all 
 	Every **operation** is **atomic**
 	It have O(1) complexity ⇒ take same amount to retrieve 1 MB or 200 TB of data
 	[[not Open source]]

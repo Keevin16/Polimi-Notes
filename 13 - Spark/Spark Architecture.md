@@ -1,0 +1,27 @@
+- **Spark Architecture (Runtime):**
+    
+    - **Driver Program:**
+        
+        - **Function:** The user's application, containing the `SparkContext`.
+            
+        - **SparkContext:** The entry point for all Spark functionality, connecting to the Cluster Manager and requesting resources.
+            
+    - **Cluster Manager:**
+        
+        - **Function:** Manages resources across the cluster, allocates resources to jobs, and distributes tasks. Examples: YARN, Mesos, Standalone.
+            
+    - **Worker Nodes:**
+        
+        - **Function:** The actual machines that execute tasks.
+            
+        - **Executor:** A process on a worker node that runs tasks.
+            
+        - **Task:** A small unit of work that operates on a piece of data (a partition).
+            
+        - **Cache:** In-memory space for temporarily storing frequently reused data.
+            
+    - **Master/Slave Analogy:**
+        
+        - **Master:** Coordinates computation and task distribution (similar to Driver/Cluster Manager in a combined sense).
+            
+        - **Slave:** Executes tasks and returns results (Worker Nodes).

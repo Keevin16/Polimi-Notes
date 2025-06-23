@@ -1,12 +1,9 @@
 ### Persistence
 
-- [[🟥 cap 8- Redis]] keeps the data in the RAM in order to don't loose speed, consequently when the laptop is turned off data in the RAM'll be lost!
-
-- To deal with this problem are saved data to the disk to restore it later
-	It's ensured **durability**
+- [[🟥 cap 8- Redis]] keeps **volatile data**, by design will **lose data** after a **shutdown**, in any case it's **possible to configure** it in order to be **persistent**.  
 
 There are two main mechanism to save data:
- -  **Redis database snapshot (RDB)** which makes **periodic snapshot** of data and save it on the disk
+ -  **Redis database snapshot (RDB)** which makes **periodic snapshot** of data and save it on the disk (for instance, every 5 minute)
  - **Append-Only-Files (AOF)** which **logs** every **write operation** on a file on the disk
 	 In this way when Redis restart it **replays the file** to **rebuild the dataset**
 
@@ -23,14 +20,14 @@ It's possible to split up in two different main nodes:
 
 ---
 ### [[Partitioning]] 
-In this case we talk about Horizontal [[Partitioning]].
-Could be different type of partitioning:
-- **Client-side**: decides which node to send the data to (like with hashing) or to query
+Could be different types of partitioning:
+- **Client-side**: decides **which node** to **send the data** (like with hashing) or to query
 
 - **[[Proxy-based - topology 3]]** (**[[Twemproxy]]**): is a middleman between client and Redis instance.
-	in a nutshell the client send the request to the proxy which knows the node/s to query (Smarter way) ![[Screenshot from 2025-04-17 13-49-22.png]]
+	in a nutshell the **client send the request to the proxy** which knows the node/s to query (Smarter way) 
 
 - **Single [[Twemproxy]]**: is connected to multiple master, determines in which one route the data
+![[Screenshot from 2025-04-17 13-49-22.png]]
 
 - **Load balance Twemproxy**: load balance distributes the requests to multiple Twemproxy, all of them are connected to all master
 	![[Screenshot from 2025-04-17 13-51-16.png]]

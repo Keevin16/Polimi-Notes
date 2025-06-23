@@ -1,4 +1,4 @@
->***Columnar databases*** are those where the data is stored in ***columns** instead of rows as is done in the traditional ***row-based databases** as they offer impressive benefits in certain types of queries and ***data manipulation** operations.
+>***Columnar databases*** are those where the data is stored in **columns** instead of rows as is done in the traditional **row-based databases** as they offer impressive benefits in certain types of queries and **data manipulation** operations.
 ![[Pasted image 20250418183353.png]]
 
 Obtaining better performance for operations that require applications to **read data** such as **data analytics** and **data warehousing**.
@@ -37,13 +37,13 @@ Obtaining better performance for operations that require applications to **read 
 - If you **want to read an object** (row) you need to **recombine many columns**
 - Increase **Disk seek time**
 - increase **tuple reconstruction cost**
-	![[Pasted image 20250419100313.png]]Read **few columns**--> **Columnar** databases (red) is **better than row databases** (blue)
-    Read a **lot of columns**--> **Columnar** database is **worst then row database**
+	![[Pasted image 20250419100313.png]]Read **few tuples**--> **Columnar** databases (red) is **better than row databases** (blue)
+    Read a **lot of tuples**--> **Columnar** database is **worst then row database**
 
 ### Compression
 The [[Columnar databases]] are based on the Compression of the data, but it may have **downsize**:
 - **Reduce** the **size of the data** but requires **CPU** to **compress and decompress data**
-	 >Is the **time** you spend **compressing/decompressing** and sending compressed files **smaller than the time** of **transferring the uncompressed data**? 
+ >Is the **time** you spend **compressing/decompressing** and sending compressed files **smaller than the time** of **transferring the uncompressed data**? 
 ![[Pasted image 20250418184851.png]]
 
 **Two category of compression**:

@@ -1,4 +1,4 @@
->It's a **declarative query language** for property graph databases, used in Neo4J.
+It's a **declarative query language** for property graph databases, used in Neo4J.
 
 To see all the dataset in a nutshell 
 ``` Cypher
@@ -115,6 +115,13 @@ RETURN nodes(p)
 ```cypher
 MATCH p = (a)-[:FRIENDS_WITH*1..3]->(b)
 RETURN relationships(p)
+```
+
+### Labels
+If I have generalized data (for instance in the RDBMS I have a generalization) begins to be impressive the utility of the **labels**.
+```cypher
+CREATE (n: Label1: Label2 {property1: value1})
+return n
 ```
 
 ### Different type of patterns

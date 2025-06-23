@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "Elastic",
+  "search": "cassandra",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -95,6 +95,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.8408973937266698,
+  "scale": 1.0483692874336585,
   "close": false
 }

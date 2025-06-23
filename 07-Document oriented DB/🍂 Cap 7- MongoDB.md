@@ -15,6 +15,7 @@ The **security 🔒** is achieved thought:
 [[🍂 Cap 7- MongoDB]] has 2 different **components**:
 - [[MongoD]]: database instance, is installed in every shard/node/server
 - [[MongoS]] 
+- [[Config Server]]: A special MongoD, storing metadata about the cluster
 ![[Screenshot from 2025-04-15 18-24-11.png]]
 
 
