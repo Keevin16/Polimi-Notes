@@ -1,4 +1,4 @@
-- In order to **store a single data** instance on Redis 
+-  In order to **store a single data** instance on Redis 
 ``` lua
 SET key_name key_value
 ``` 
@@ -49,31 +49,27 @@ PERSIST key_name
 
 #### List
 It's possible to manage **data structures**, like **LIST**.
-- In order to create it, it's enough to write **RPUSH** (end) or **LPUSH** (beginning).
-Note: If they key is empty it will be deleted, as well if it doesn't exists it'll be created.
-
+Simplest stuff in the world, the only "weird" stuff is that you have to think for what Redis is, a cache.
 ``` lua
-LRANGE key_name first_index last_index
-```
-In the first index there're only positive number, instead on the last could be negative too.
-"-N" implies that will be returned all value besides the "N-1" values.
+LPUSH stack 5
+LPUSH stack 1
 
-- To remove items from the list there're LPOP e RPOP 
-``` lua
-LPOP key_name
-```
-- It's also possible to obtain the length 
+RPUSH stack 13
+LPUSH stack 10
 
-``` lua
-LLEN key_name
-```
+LPOP stack
 
+LRANGE stack 0 3 
+``` 
+**Lrange** return all the result between two indexes that you decide.
+It's possible to set an **expire date**, introducing after the command `EX NUMBER`
 #### Set
-they are like the List but they don't have a specific value order and each value can only appear once per set.
-- Adds one or more values to a list. Return 1 if the element is correctly added, 0 otherwise.
+they are like the List but they don't have a specific value order and it's not possible to replicate the data.
+
+- Adds one or more values to a list. Return n, which is the number of element added, if the elements are correctly added, 0 otherwise.
 
 ``` lua
-SSAD key_name key_value0, key_value1, ...
+SADD key_name key_value0, key_value1, ...
 ```
 - Remove one or more elements from a set. Return 1 if the element is correctly removed, 0 otherwise.
 ``` lua
@@ -81,11 +77,11 @@ SREM key_name key_value0, key_value1, ...
 ```
 - Check if it's part of the set. Return 1 if the value is part of the set
 ``` lua
-SIMEMEBER key_name key_value
+SISMEMEBER key_name key_value
 ```
 - Returns all the members in the set
 ``` lua
-SMEMBER key_name
+SMEMBERS key_name
 ```
 - Combine two or more set into one set
 ``` lua
@@ -108,3 +104,6 @@ Hashes are the best way to store objects, they are mapping between string fields
  ```
  - Returns a hash with its field HGETALL
  - Returns a single field from a hash HGET
+
+To make practice https://onecompiler.com/redis
+Documentation redis.io/docs/

@@ -190,7 +190,6 @@ db.name.find(
 
 >**Comparison** query operator
 - $eq
-- $gt(gte)
 - $lt (lte)
 - $in
 - $ne, which stands for **not equal** 
@@ -237,7 +236,7 @@ In this case we want to compute the total number of bedrooms available across th
 db.name.aggregate(
 	[
 	"$group"; {
-		"_id": true,
+		"_id": null,
 		"bedroom_count": { "$sum": "$bedroom"}
 	}
 	]

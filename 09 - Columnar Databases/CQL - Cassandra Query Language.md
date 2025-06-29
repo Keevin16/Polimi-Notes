@@ -21,11 +21,11 @@ PRIMARY KEY ((personal_id, ...), age, ...)
 ## Create a table
 When it's created a table, clustering keys can be used to define an ordering
 ``` cql
-CREATE TABEL person( 
-	column_definition_1 column_type,
+CREATE TABLE person( 
+	column_definition_1 column_z,
 	column_definition_2 column_type
 )
-WITH CLUSTERING OERD BY (age ASC, ...);
+WITH CLUSTERING ORD BY (age ASC, ...);
 ``` 
 All the different [[Column Type]]
 ## Describe & Use
@@ -40,7 +40,7 @@ In order to be able to perform the operations on the tables, we must choose in w
 	USE keyspaces_name;
 ```
 
-## Alter & Drop( or Truncate)
+## Alter & Drop (or Truncate)
 **Keyspaces** and **Table** can also be modified with **Alter** and deleted with **Drop** with the corresponding commands.
 ``` cql
 	ALTER KEYSPACE identifier WITH properties 
@@ -176,50 +176,5 @@ SET address 0 "Via Milani 13"
 WHERE personal_id = "yyyyyyy"
 ```
 
-
-#### CASE STUDY
--  Create a KeySpace named "car_dealer"
-``` cql
-CREATE KEYSPACE car_dealer 
-WITH replication = {
-'class'='SimpleStrategy',
-'replication_factor'=3
-}
-```
-- Check if they have been described
-``` cql
-DESCRIBE keyspaces;
-DESCRIBE car_dealer;
-``` 
-- Create a table named “car” within the keyspace with the following attributes car_id (uuid, primary key), brand (textual), max_speed (integer), price (float), consumption_lt_per_km (float) and sorted by max_speed in ascending order.
-``` cql
-CREATE TABLE car(
-	car_id uuid,
-	brand text,
-	max_speed int,
-	price float,
-	consumption_it_per_km float, 
-	PRIMARY KEY (car_id, max_speed) )
-)
-WITH CLUSTERING ORDER BY(max_speed ASC); 
-``` 
- - Add a new column to the table, named “features” that contains the set/list of features of the cars (e.g., air conditioning, etc.). Each “feature” is made of name and description.
- ``` cql
- CREATE TYPE feature(
-	 name text,
-	 description text
- );
- ALTER TABLE car
-	 ADD features list<frozen<feature>>;
- ``` 
- NOTE: 
- When it's created a user-defined data type, it's necessary to use the **frozen** keyword. It's possible only to overwritten, NOT to edit anymore.
- - delete features
-``` cql
-ALTER TABLE car DROP features;   
-``` 
-- insert a new value in the table, use the function uuid() to get a unique identifier
-``` cql
-INSERT INTO CAR (car_id, brand, max_speed, price, cosumption_lt_per_km)
-VALUES (uuid(), 'Ferrrai', '...', '...', '...');
-```
+Make practice with https://onecompiler.com/cassandra
+Documentation https://cassandra.apache.org/doc/latest/cassandra/developing/cql/index.html

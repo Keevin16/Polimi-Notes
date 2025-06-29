@@ -4,7 +4,7 @@
 it can be of two types:
 [[Relational OLAP (ROLAP)]] 
 	**Relational** specialized **DBMS** to **store and manage warehouse data** 
-	There's a **OLAP middle ware** to support **missing pieces**
+	There's a **OLAP middleware** to support **missing pieces**
 
 [[Multidimensional OLAP (MOLAP)]]
 	It's based on **matrix**, it aggregate data in **multidimensional** structure, for **fast** and **complex** analytical queries

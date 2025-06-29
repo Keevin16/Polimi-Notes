@@ -53,7 +53,7 @@ How to deal and handle master node failure
 - **Automatic failover with [[Redis Cluster - topology 4]]** (Cluster Topology) --> [[AP]]
 	cluster consists of **multiple master nodes** and their **associated slave nodes**. **Cluster** **automatically detects failure** and **promotes a slave** to **master**. The new master takes over the failed master's hash slots
 		- **Three servers** with **one master** and **two slaves** and **three sentinels**
-			in this way **if the master is not working** the **sentinel detect** it and talk to each other ⇒ **decide which slave should replace** the non-working master
+			in this way **if the master is not working** the **sentinel detect** it and talk to each other ⇒ **decide which slave should replace** the not-working master
 	![[Pasted image 20250417135406.png]]
 
 #Redis

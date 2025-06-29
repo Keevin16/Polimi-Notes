@@ -6,9 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiNetwork",
-      "LiDatabase",
-      "LiActivitySquare"
+      "🟥",
+      "🍂",
+      "🖥",
+      "LiMemoryStick",
+      "LiScanEye"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -40,5 +42,8 @@
   "06-Graph DB": {
     "iconName": "LiNetwork",
     "iconColor": "#1bac3f"
-  }
+  },
+  "09 - Columnar Databases": "LiScanEye",
+  "08- Key-value DB": "🟥",
+  "07-Document oriented DB": "🍂"
 }

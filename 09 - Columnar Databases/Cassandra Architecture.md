@@ -1,8 +1,8 @@
-Cassandra has a [[Ring topology]] for each data center (**Cluster**), as told before it's **masterless**.
+Cassandra has a [[Ring topology]] for each data center (**Cluster**), it's **masterless**.
 ![[Pasted image 20250418194956.png]]
 ### Write
-In order to write the **client** sends write command to **one front-end node** in Cassandra **cluster**, which send it to all the **replica node**.
-Used the Hinted Handoff principle:
+In order to write the **client** sends write command to **one front-end node** in Cassandra **cluster** (which will be called **Coordinator** for that particular query), which send it to all the **replica node**.
+- Used the Hinted Handoff principle:
 	- If **any replica is down**, the **coordinator writes to all other replicas**, and **keeps** the **write until down replica comes back up**.
 	- When **all replicas are down**, the **Coordinator** (front end) **buffers writes** (for up to an hour).
 

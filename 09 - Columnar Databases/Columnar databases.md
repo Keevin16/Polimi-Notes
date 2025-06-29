@@ -41,7 +41,7 @@ Obtaining better performance for operations that require applications to **read 
     Read a **lot of tuples**--> **Columnar** database is **worst then row database**
 
 ### Compression
-The [[Columnar databases]] are based on the Compression of the data, but it may have **downsize**:
+The **Columnar databases** are based on the Compression of the data, but it may have **downsize**:
 - **Reduce** the **size of the data** but requires **CPU** to **compress and decompress data**
  >Is the **time** you spend **compressing/decompressing** and sending compressed files **smaller than the time** of **transferring the uncompressed data**? 
 ![[Pasted image 20250418184851.png]]

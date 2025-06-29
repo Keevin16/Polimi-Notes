@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "47c89828a74394e5",
+        "id": "0167570efb96277c",
         "type": "tabs",
         "children": [
           {
-            "id": "86ba427f382e6b53",
+            "id": "f93a7cc8834d29e1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,21 +22,30 @@
             }
           },
           {
-            "id": "5970265678e87313",
+            "id": "9253348a2887681c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06-Graph DB/Cypher.md",
+                "file": "13 - Spark/DataFrames.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cypher"
+              "title": "DataFrames"
+            }
+          },
+          {
+            "id": "469eaffb3d15f497",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -68,7 +77,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cluster",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -109,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-Computing Infrastuctures/IoT Devices.md",
+                "file": "05-NoSql/Scalability.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +128,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for IoT Devices"
+              "title": "Backlinks for Scalability"
             }
           },
           {
@@ -193,41 +202,43 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5970265678e87313",
+  "active": "f93a7cc8834d29e1",
   "lastOpenFiles": [
-    "13 - Spark/Namenode.md",
-    "13 - Spark/Spark.md",
-    "pics/Pasted image 20250623113501.png",
-    "06-Graph DB/Cypher.md",
-    "06-Graph DB/Drivers.md",
-    "First Exercise.md",
     "13 - Spark/Spark Architecture.md",
+    "13 - Spark/Spark.md",
+    "13 - Spark/DataFrames.md",
+    "13 - Spark/RDDs.md",
+    "14 - Data Warehouse/🏭 Data Warehouse.md",
+    "13 - Spark/Overview Big Data concepts.md",
+    "13 - Spark/Namenode.md",
+    "13 - Spark/HDFS - Hadoop Distributed File System.md",
+    "First Exercise.md",
+    "14 - Data Warehouse/OLAP.md",
+    "13 - Spark/DataNode.md",
+    "14 - Data Warehouse/Data Warehouse Models.md",
+    "14 - Data Warehouse/OLTP.md",
+    "14 - Data Warehouse/DSS.md",
+    "14 - Data Warehouse/Data Warehouse Architecture.md",
+    "14 - Data Warehouse/Cloud-Based Data Warehouse.md",
+    "12 - Vector DB/Vector Databases.md",
+    "11 - Information Retrieval DB/ELK Stack.md",
+    "11 - Information Retrieval DB/Logstash.md",
+    "11 - Information Retrieval DB/Kibana.md",
+    "11 - Information Retrieval DB/Elasticsearch.md",
+    "04-Data Architecture/BASE.md",
+    "10 - API & Data Scraping/Data Scraping.md",
+    "10 - API & Data Scraping/API - Application Programming Interface.md",
+    "09 - Columnar Databases/columns.md",
+    "09 - Columnar Databases/Columnar databases.md",
+    "Untitled.canvas",
+    "pics/Pasted image 20250623113501.png",
     "pics/Pasted image 20250623112724.png",
     "pics/Pasted image 20250623112506.png",
     "pics/Pasted image 20250623110025.png",
     "pics/Pasted image 20250623105827.png",
-    "13 - Spark/RDDs.md",
-    "13 - Spark/HDFS - Hadoop Distributed File System.md",
-    "13 - Spark/DataNode.md",
     "pics/Pasted image 20250623103204.png",
     "pics/Pasted image 20250623103719.png",
-    "13 - Spark/Overview Big Data concepts.md",
-    "Untitled.md",
-    "09 - Columnar Databases/Cassandra Structure.md",
-    "09 - Columnar Databases/👁️ cap 9 - Cassandra.md",
-    "14 - Data Warehouse/OLTP.md",
     "13 - Spark",
-    "14 - Data Warehouse/🏭 Data Warehouse.md",
-    "14 - Data Warehouse/Data Warehouse Architecture.md",
-    "12 - Vector DB/Vector Databases.md",
-    "09 - Columnar Databases/Cassandra Architecture.md",
-    "09 - Columnar Databases/Columnar databases.md",
-    "08- Key-value DB/🟥 cap 8- Redis.md",
-    "08- Key-value DB/Key-value database.md",
-    "10 - API & Data Scraping/Data Scraping.md",
-    "10 - API & Data Scraping/API - Application Programming Interface.md",
-    "08- Key-value DB/Key-Value and Caching.md",
-    "08- Key-value DB/Exercises.md",
     "07-Document oriented DB/Sharding",
     "Pasted image 20250502174056.png",
     "pics/Pasted image 20250502164129.png",
@@ -239,7 +250,6 @@
     "12 - Vector DB",
     "11 - Information Retrieval DB",
     "10 - API & Data Scraping",
-    "09 - Columnar Databases",
-    "Untitled.canvas"
+    "09 - Columnar Databases"
   ]
 }

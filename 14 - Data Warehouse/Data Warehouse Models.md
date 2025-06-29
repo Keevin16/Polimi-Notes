@@ -1,5 +1,5 @@
-### ⭐ Star schema
->The Data Warehouse Model it's based on the [[Star Schema]]
+### ⭐ [[Star schema]]
+>The Data Warehouse Model it's based on the [[Star schema]]
 
 ![[Pasted image 20250419122339.png]]
 It's a representation of multi - perspective analysis
@@ -33,7 +33,7 @@ Instead in this case going from **more detailed** to **less detailed** data -->R
 
 ---
 [[Data cube]]
-It's a **multidimensional array of data**, each **dimension** (equal to the dimension on the star schema) represents a different **attribute**, and each **cell** contains a **measure**.
+It's a **multidimensional array of data**, each **dimension** (equal to the dimension on the [[Star schema]]) represents a different **attribute**, and each **cell** contains a **measure**.
 ![[Pasted image 20250419152225.png]]
 #### [[Slice and Dice]]
 **Slice** **fixes a single value in one dimension** → returns a **2D sub-cube**.

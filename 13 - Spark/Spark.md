@@ -20,30 +20,16 @@ Spark is an **open-source** cluster computing framework designed for **fast and 
 #### [[RDDs]] (Resilient Distributed Datasets)
 
 #### [[Spark Architecture]] (Runtime)
-
-
-
-            
 - **Spark Operations:**
-    
     - **Transformations:**
-        
         - **Purpose:** Define how data is processed; they transform an RDD into another RDD.
-            
         - **Lazy Evaluation:** _Crucially, they are not executed immediately._ They build a logical plan (DAG) of operations. Execution only happens when an action is called. "The fastest way to do something is not doing it."
-            
         - **Examples:** `filter()`, `map()`, `join()`, `groupBy()`, `select()`, `orderBy()`.
-            
         - **Types of Transformations:**
-            
             - **Narrow Transformations (1-to-1):**
-                
                 - **Characteristic:** Data required to compute a record in a single partition resides in at most one partition of the parent RDD. Work locally on data within partitions.
-                    
                 - **No Shuffle:** Does not require data movement across the network (no "shuffle").
-                    
                 - **Examples:** `filter()`, `map()`, `drop()`, `coalesce()`.
-                    
             - **Wide Transformations (1-to-N / Shuffles):**
                 
                 - **Characteristic:** Data required to compute a record in a single partition may reside in many partitions of the parent RDD.
@@ -81,18 +67,7 @@ Spark is an **open-source** cluster computing framework designed for **fast and 
     
     - **Fault Recovery:** Spark maintains a log of execution steps and intermediate results. If a node fails, Spark can recompute lost partitions using the lineage of transformations from previous RDDs, similar to database transactions.
         
-- **DataFrames:**
-    
-    - **Definition:** A higher-level abstraction built on top of RDDs, representing immutable, distributed collections of data organized into named columns (like tables in a relational database).
-        
-    - **Advantages:**
-        
-        - **User-Friendly API:** More intuitive and accessible from different programming languages (Python, Scala, Java, R).
-            
-        - **Optimized:** Leverages Catalyst Optimizer to build an Abstract Syntax Tree (AST) for queries, leading to highly optimized execution plans.
-            
-        - **SQL-like Operations:** Supports direct SQL queries or methods that resemble SQL syntax.
-            
+- [[DataFrames]]
 - **Available File Formats Supported by Spark:**
     
     - **Text/CSV:** Plain text or comma-separated values.

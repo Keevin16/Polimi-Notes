@@ -8,8 +8,6 @@
     The system **continues to work despite network failures**, delays, or message losses.
 
 ---
-
----
 It's a complete trade off between [[Consistency]] and [[Availability]]  at operation level!
 ![[Screenshot from 2025-04-14 12-04-07.png]]>
 
